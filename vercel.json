@@ -1,0 +1,36 @@
+{
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/our-cleaning-process",
+      "destination": "/our-cleaning-process.html",
+      "permanent": true
+    },
+    {
+      "source": "/christmas-light-installation",
+      "destination": "/christmas-light-installation.html",
+      "permanent": true
+    },
+    {
+      "source": "/request-a-quote",
+      "destination": "/request-a-quote.html",
+      "permanent": true
+    }
+  ]
+}
